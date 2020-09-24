@@ -19,6 +19,11 @@ on:
       - main
     paths:
       - '.config'
+
+defaults:
+  run:
+    shell: bash
+          
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
