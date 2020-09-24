@@ -19,15 +19,15 @@ on:
       - main
     paths:
       - '.config'
-
-#defaults:
-#  run:
-#    shell: bash
           
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
     types: started
+
+defaults:
+  run:
+    shell: bash
 
 env:
   #REPO_URL: https://github.com/coolsnowwolf/lede
