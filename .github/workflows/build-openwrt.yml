@@ -20,9 +20,9 @@ on:
     paths:
       - '.config'
 
-defaults:
-  run:
-    shell: bash
+#defaults:
+#  run:
+#    shell: bash
           
 #  schedule:
 #    - cron: 0 8 * * 5
